@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "target": "es2022",
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "allowJs": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "esModuleInterop": true,
+        "jsx": "react",
+        "resolveJsonModule": true,
+        "moduleDetection": "force",
+        "isolatedModules": true,
+        "verbatimModuleSyntax": true,
+        "removeComments": false,
+
+        "noUncheckedIndexedAccess": true,
+        "noImplicitOverride": true,
+
+        "module": "ESNext",
+        "moduleResolution": "Node",
+        "outDir": "dist",
+        "rootDir": "src",
+        "sourceMap": true,
+
+        "declaration": true,
+        "types": ["vitest/jsdom"]
+    },
+    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"],
+    "exclude": ["node_modules", "build", "dist", ".next"]
+}
